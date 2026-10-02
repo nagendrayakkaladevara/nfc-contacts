@@ -21,7 +21,7 @@ jobs:
         run: |
           unzip -o QuickDial-React-TypeScript.zip
           rm QuickDial-React-TypeScript.zip
-          rm .github/workflows/bootstrap.yml
+          rm .github/workflows/deploy.yml
       - name: Commit source
         run: |
           git config user.name "github-actions[bot]"
